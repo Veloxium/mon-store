@@ -1,0 +1,259 @@
+.primary {
+  background-color: #212121;
+}
+.secondary {
+  background-color: #373737;
+}
+.custom {
+  background-color: #fb2c86;
+}
+.cartbg {
+  background-color: #2b2b2b;
+}
+.lets {
+  color: #fb2c86;
+}
+.lets:hover {
+  text-decoration: underline;
+}
+
+.border-custom {
+  border: solid #fb2c86;
+}
+/* Custom scrollbar styles */
+.scrollbar-style {
+  scrollbar-width: thin; /* "auto" hides the scrollbar until hover, "thin" always shows it */
+  scrollbar-color: #fb2c86 #373737; /* Set thumb and track colors */
+}
+
+.scrollbar-style::-webkit-scrollbar {
+  width: 6px; /* Set the scrollbar width */
+}
+
+.scrollbar-style::-webkit-scrollbar-thumb {
+  background-color: #fb2c86; /* Set thumb color */
+}
+
+.scrollbar-style::-webkit-scrollbar-track {
+  background-color: #373737; /* Set track color */
+}
+
+
+/* For Toggle in AllPages */
+
+.toggle-switch {
+  display: flex;
+  align-items: center;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 16px;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  border-radius: 24px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: gray;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 1px;
+  bottom: 1px;
+  background-color: white;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #fb2c86;
+}
+
+input:checked + .slider:before {
+  transform: translateX(32px);
+}
+
+/*  */
+
+.card {
+  width: 100%;
+  transition: ease-out 0.7s;
+  cursor: pointer;
+}
+.card:hover {
+  background-color: #fb2c86;
+}
+.cardbg {
+  height: 120px;
+  background-color: #373737;
+}
+.btn {
+  border: #fb2c86 solid 2px;
+  border-radius: 4px;
+}
+.btn:hover {
+  background-color: #fb2c86;
+}
+.btn-ctr:hover{
+  background-color: #fb2c86;
+  border-radius: 4px;
+  transition: all ease-out 0.3s;
+}
+.page {
+  border-radius: 4px;
+  background-color: #fb2c86;
+}
+.option {
+  border: #fff solid 2px;
+}
+.searchfill {
+  border-radius: 10px;
+  background-color: #636363;
+  border: solid #fff 2px;
+}
+.cart {
+  border-radius: 10px;
+  padding: 4px;
+  background-color: #fb2c86;
+}
+.carddetail {
+  background-color: #373737;
+}
+.hp {
+  background-color: #1a5d1a;
+}
+.attack {
+  background-color: #c51605;
+}
+.defense {
+  background-color: #1d5b79;
+}
+.special-attack {
+  background-color: #e7b10a;
+}
+.special-defense {
+  background-color: #2d4356;
+}
+.speed {
+  background-color: #7a3e3e;
+}
+
+/* Types */
+
+.bug {
+  background-color: #5b9a8b;
+}
+.poison {
+  background-color: #974ec3;
+}
+.normal {
+  background-color: #f4d160;
+}
+.grass {
+  background-color: #17594a;
+}
+.water {
+  background-color: #9ac5f4;
+}
+.rock {
+  background-color: #9babb8;
+}
+.ground {
+  background-color: #967e76;
+}
+.fire {
+  background-color: #ff6969;
+}
+.electric {
+  background-color: #e1d7c6;
+}
+.fighting {
+  background-color: #263159;
+}
+.flying {
+  background-color: #b2b2b2;
+}
+.dark {
+  background-color: #000000;
+}
+.ghost {
+  background-color: #372948;
+}
+.fairy {
+  background-color: #fe7be5;
+}
+.psychic {
+  background-color: #3f1d38;
+}
+.ice {
+  background-color: #279eff;
+}
+
+.bottomnav {
+  box-shadow: 0px -4px 6px -1px rgba(255, 255, 255, 0.1);
+}
+
+.cartcheck {
+  background: #fb2c86;
+}
+/* Loader Svg Dont */
+.rings {
+  --uib-speed: 2s;
+  --uib-color: #fb2c86;
+
+  vertical-align: middle;
+  transform-origin: center;
+  animation: rotate var(--uib-speed) linear infinite;
+}
+
+.rings circle {
+  fill: none;
+  stroke: var(--uib-color);
+  stroke-dasharray: 1, 200;
+  stroke-dashoffset: 0;
+  stroke-linecap: round;
+  animation: stretch calc(var(--uib-speed) * 0.75) ease-in-out infinite;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes stretch {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 90, 200;
+    stroke-dashoffset: -35px;
+  }
+  100% {
+    stroke-dashoffset: -124px;
+  }
+}
+/* Loader Svg */
+
+@media (min-width: 1024px) {
+  .cardbg {
+    height: 300px;
+  }
+}
