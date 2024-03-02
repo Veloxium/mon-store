@@ -2,6 +2,8 @@ import React, { useState, useEffect, useCallback } from "react";
 import Stars from "./stars";
 import axios from "axios";
 import Load from "../assets/load.png";
+import topline from "../assets/topline.png";
+import bottomline from "../assets/bottomline.png";
 import { Link } from "react-router-dom";
 import { useDataContex } from "../utils/datacontext";
 import Loader from "./loader";
@@ -73,7 +75,7 @@ function CardPokemon({ name, url, id, pixel, notifHandle }) {
       >
         <div className="cardbg relative flex items-center justify-center p-4 w-full">
           <img
-            src="/src/assets/topline.png"
+            src={topline}
             alt="linetop"
             className="absolute right-0 top-0 lg:w-20 w-10"
           />
@@ -92,7 +94,7 @@ function CardPokemon({ name, url, id, pixel, notifHandle }) {
             <Loader />
           )}
           <img
-            src="/src/assets/bottomline.png"
+            src={bottomline}
             alt="linetop"
             className="absolute left-0 bottom-0 lg:w-20 w-10"
           />
