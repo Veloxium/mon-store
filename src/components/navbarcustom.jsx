@@ -15,14 +15,14 @@ function NavbarCustom() {
           </Link>
         </div>
         <div className="collection inline-flex">
-          <Link to={""}>
+          <Link to={"#"}>
             <p className="option px-2 py-1 text-white poppins text-sm lg:text-md uppercase">
               Collection
             </p>
           </Link>
         </div>
         <div className="about inline-flex">
-          <Link to={"/"}>
+          <Link to={"#"}>
             <p className="option px-2 py-1 text-white poppins text-sm lg:text-md uppercase">
               Contact
             </p>
@@ -31,7 +31,7 @@ function NavbarCustom() {
       </div>
       <div className="search flex justify-center gap-2 mt-4 lg:mt-0">
         <div className="about inline-flex">
-          <Link to={"/"}>
+          <Link to={"#"}>
             <p className="option px-2 py-1 text-white poppins text-sm lg:text-md uppercase">
               More Information
             </p>
@@ -39,7 +39,7 @@ function NavbarCustom() {
         </div>
       </div>
       <div className="search flex justify-center gap-2 mt-4 lg:mt-0">
-        <Link to={"/"}>
+        <Link to={"#"}>
           <div className="cart">
             <svg
               xmlns="http://www.w3.org/2000/svg"

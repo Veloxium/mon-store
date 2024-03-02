@@ -86,7 +86,7 @@ function AllPages() {
             </label>
           </div>
         </div>
-        <div className="grid lg:grid-cols-4 gap-2 lg:gap-6 grid-cols-2">
+        <div className="grid lg:grid-cols-4 gap-2 lg:gap-6 grid-cols-2 ">
           {newPokemon.map((data, index) => (
             <motion.div
               id="animation"
