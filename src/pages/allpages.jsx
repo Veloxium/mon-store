@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "../App.css";
 import axios from "axios";
+import mosnter from "../assets/monster.png";
 import CardPokemon from "../components/cardpokemon";
 import ButtonCustom from "../components/buttoncustom";
 import NavbarCustom from "../components/navbarcustom";
@@ -65,7 +66,7 @@ function AllPages() {
       <div className="title flex justify-center items-center pb-4 pt-10 gap-2">
         <p className="text-white text-2xl poppins font-bold">All</p>
         <img
-          src="/src/assets/monster.png"
+          src={mosnter}
           alt="title"
           srcSet=""
           className="w-[30%] lg:w-[10%] mt-[-14px]"
