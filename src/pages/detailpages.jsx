@@ -3,6 +3,8 @@ import axios from "axios";
 import { useParams } from "react-router-dom";
 import Logo from "../assets/mainlogo.png";
 import Load from "../assets/load.png";
+import topline from "../assets/topline.png";
+import bottomline from "../assets/bottomline.png";
 import { useState, useCallback, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Stars from "../components/stars";
@@ -82,7 +84,7 @@ function DetailPages() {
           <div className="px-6 md:px-0">
             <div className="carddetail relative flex items-center justify-center p-10 w-full">
               <img
-                src="/src/assets/topline.png"
+                src={topline}
                 alt="linetop"
                 className="absolute right-0 top-0 lg:w-20 w-24"
               />
@@ -101,7 +103,7 @@ function DetailPages() {
               )}
 
               <img
-                src="/src/assets/bottomline.png"
+                src={bottomline}
                 alt="linetop"
                 className="absolute left-0 bottom-0 lg:w-20 w-24"
               />

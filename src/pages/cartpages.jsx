@@ -76,8 +76,8 @@ function CartPages() {
   // console.log(totalSum.toFixed(2));
   // console.log(selectedItems);
   // console.log(isChecked);
-  console.log(finalSelectedItems);
-  console.log(selectedItems);
+  // console.log(finalSelectedItems);
+  // console.log(selectedItems);
 
   return (
     <div className="min-h-screen primary">

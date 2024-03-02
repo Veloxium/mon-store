@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import Stars from "../components/stars";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import topline from "../assets/topline.png";
+import bottomline from "../assets/bottomline.png";
 
 function CartBox({
   id,
@@ -50,13 +52,13 @@ function CartBox({
       <div className="flex">
         <div className="secondary relative flex">
           <img
-            src="/src/assets/topline.png"
+            src={topline}
             alt="linetop"
             className="absolute right-0 top-0 lg:w-10 w-10"
           />
           <img src={url} alt={name} className="w-40" />
           <img
-            src="/src/assets/bottomline.png"
+            src={bottomline}
             alt="linetop"
             className="absolute left-0 bottom-0 lg:w-10 w-10"
           />
