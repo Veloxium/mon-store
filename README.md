@@ -54,8 +54,6 @@ Make sure to check the documentation of each dependency for detailed information
 
 ## Contributing
 
-Contributions are welcome! If you want to contribute to MonStore, please follow the [Contribution Guidelines](CONTRIBUTING.md).
+Contributions are welcome! If you want to contribute to MonStore, please contact me on [Instagram](https://www.instagram.com/mchfrnnda_/).
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
