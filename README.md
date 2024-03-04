@@ -1,6 +1,4 @@
-#!/bin/bash
-
-echo "# MonStore - Pokémon Ecommerce Website
+# MonStore - Pokémon Ecommerce Website
 
 ![MonStore Logo](https://github.com/Veloxium/mon-store/assets/111406150/b739a35c-9508-48cc-b98e-75ec41f947be)
 
@@ -60,4 +58,4 @@ Contributions are welcome! If you want to contribute to MonStore, please follow 
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE)." > README.md
+This project is licensed under the [MIT License](LICENSE).
