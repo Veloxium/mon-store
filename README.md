@@ -26,20 +26,20 @@ MonStore is an ecommerce website that specializes in selling Pokémon. This proj
 To get started with MonStore, follow these steps:
 
 1. **Clone the repository:**
-   \`\`\`bash
+   ```bash
    git clone https://github.com/your-username/MonStore.git
-   \`\`\`
+   ```
 
 2. **Install dependencies:**
-   \`\`\`bash
+   ```bash
    cd MonStore
    npm install
-   \`\`\`
+   ```
 
 3. **Run the development server:**
-   \`\`\`bash
+   ```bash
    npm run dev
-   \`\`\`
+   ```
 
    This will start the development server, and you can view the website at \`http://localhost:3000\`.
 
@@ -50,7 +50,6 @@ To get started with MonStore, follow these steps:
 - [Framer Motion](https://www.framer.com/motion/)
 
 Make sure to check the documentation of each dependency for detailed information.
-
 
 ## Contributing
 
