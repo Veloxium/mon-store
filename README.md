@@ -9,10 +9,7 @@ MonStore is an ecommerce website that specializes in selling Pokémon. This proj
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Dependencies](#dependencies)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
